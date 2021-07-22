@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".awards">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bac3"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="TEMPLATE  DESIGNS"
+            android:textColor="#FFEB3B"
+            android:textSize="40dp" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="70dp"
+
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:paddingVertical="30dp"
+
+
+            android:paddingTop="70dp"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="334dp"
+                android:layout_height="187dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                app:cardBackgroundColor="#29E1F8"
+
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_marginEnd="51dp"
+
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:drawable/button_onoff_indicator_off"
+
+                    android:gravity="bottom|center"
+
+                    android:onClick="web"
+
+                    android:paddingBottom="4dp"
+                    android:text=" TEMPLATE 1"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textDirection="locale"
+                    android:textSize="18sp">
+
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="142dp"
+                    android:layout_marginRight="150dp"
+                    android:background="@color/black"
+                    android:src="@drawable/temp2" />
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="70dp"
+
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:paddingVertical="30dp"
+
+
+            android:paddingTop="70dp"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="334dp"
+                android:layout_height="187dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#29E1F8"
+
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="50dp"
+                    android:onClick="web1"
+
+
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@android:drawable/button_onoff_indicator_off"
+
+                    android:gravity="bottom|center"
+
+                    android:paddingBottom="4dp"
+                    android:text=" TEMPLATE 2"
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textDirection="locale"
+                    android:textSize="18sp">
+
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="335dp"
+                    android:layout_height="149dp"
+                    android:layout_marginRight="150dp"
+                    android:background="@color/black"
+                    android:src="@drawable/templ1" />
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="70dp"
+
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:paddingVertical="30dp"
+
+
+            android:paddingTop="70dp"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="334dp"
+                android:layout_height="187dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#29E1F8"
+
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="50dp"
+                    android:onClick="web2"
+
+
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@android:drawable/button_onoff_indicator_off"
+
+                    android:gravity="bottom|center"
+
+                    android:paddingBottom="4dp"
+                    android:text=" TEMPLATE 3"
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textDirection="locale"
+                    android:textSize="18sp">
+
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="144dp"
+                    android:layout_marginRight="150dp"
+                    android:background="@color/black"
+                    android:src="@drawable/temp2" />
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="70dp"
+
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:paddingVertical="30dp"
+
+
+            android:paddingTop="70dp"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="334dp"
+                android:layout_height="187dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#29E1F8"
+
+                app:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="50dp"
+                    android:onClick="web3"
+
+
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@android:drawable/button_onoff_indicator_off"
+
+                    android:gravity="bottom|center"
+
+                    android:paddingBottom="4dp"
+                    android:text=" TEMPLATE 4"
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textDirection="locale"
+                    android:textSize="18sp">
+
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="158dp"
+                    android:layout_marginRight="150dp"
+                    android:background="@color/black"
+                    android:src="@drawable/temp4" />
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

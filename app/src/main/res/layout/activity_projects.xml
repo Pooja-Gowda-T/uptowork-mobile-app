@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/pro">
+
+    <EditText
+        android:id="@+id/project_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"
+        android:textColor="#FFC107" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/project_edit_start_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Start date"
+            android:inputType="date"
+            android:textColor="#FFC107" />
+
+        <EditText
+            android:id="@+id/project_edit_end_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="End Date"
+            android:inputType="date"
+            android:textColor="#FFC107" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/project_edit_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Details"
+        android:textColor="#FFC107" />
+
+    <TextView
+        android:id="@+id/project_edit_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="right"
+        android:text="Delete"
+        style="@style/AppTheme.TextView.DeleteButton"/>
+
+</LinearLayout>

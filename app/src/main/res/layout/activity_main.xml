@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bacc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="FILL IN YOUR DETAILS"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#673AB7"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="466dp"
+        android:background="@drawable/bacc"
+        android:divider="#b5b5b5"
+        android:dividerHeight="2dp"
+        android:textColor="#070707">
+
+
+    </ListView>
+
+</LinearLayout>

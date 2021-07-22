@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ic_save" type="id"></item>
+    <item name="project_edit_start_date" type="id"></item>
+    <item name="project_edit_delete" type="id"></item>
+    <item name="project_edit_name" type="id"></item>
+    <item name="project_edit_end_date" type="id"></item>
+    <item name="project_edit_details" type="id"></item>
+</resources>
